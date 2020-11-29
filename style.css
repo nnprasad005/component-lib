@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+
+:root{
+    --primary_color:red;
+    --secondary_color:rgb(235, 201, 255);
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    margin:0px;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 2rem
+}
+
+.container-centre {
+    margin: auto;
+    max-width: 500px;
+}
+
+.link{
+    text-decoration: none;
+    padding:0.75rem 1rem;
+    
+}
+hr{
+    margin:1rem 0rem;
+}
+.link-colors{
+    background:1px solid rgb(235, 201, 255);
+    color:var(--primary_color);
+    background:rgb(228, 198, 255);
+    background-size:100px 100px;
+    text-decoration-color: rgb(255, 255, 255);
+    border-bottom-right-radius:0.5rem 
+}
+
+.non-bullet{
+    list-style: none;
+}
+.inline-list{
+    text-decoration: none;
+    padding:0rem 0.5rem;
+    display: inline;
+}
+.navigate{
+    padding:1rem;
+    background-color:var(--secondary_color);
+    border-bottom-right-radius: 0.5rem
+}
+.navigate .right .inline-list{
+    color:red
+}
+.navigate .right{
+    text-align: right;
+   
+}
+.link-active{
+    font-weight: bold;
+}
+.image{
+    display:block;
+    max-width: 500px ;
+    padding:1rem;
+    margin:auto
+}
+.me{
+    display:block;
+    margin:auto;
+    max-width:400px;
+    text-align:center;
+    color:var(--primary_color);
+}
+ .me .exme{
+color:blueviolet;
+}
+
+.section h1,h2,h3,h4{
+    text-align: center;
+    margin:auto;
+
+}
+.ws{
+    text-align: center;
+}
+.uws{
+    text-align: center;
+    padding:2rem;
+   background-color:var(--secondary_color);
+}
